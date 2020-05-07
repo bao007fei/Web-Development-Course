@@ -1,0 +1,38 @@
+/**************************** TAG SELECTORS ****************************/
+
+body {
+  background-color: #f4eeff;
+  font-family: "Fira Code", monospace;
+}
+
+h1 {
+  color: #a6b1e1;
+}
+
+h3 {
+  color: #a6b1e1;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  border-color: #dcd6f7;
+
+  width: 4%;
+}
+
+/**************************** CLASS SELECTORS ****************************/
+.bacon:hover {
+  background-color: #dcd6f7;
+}
+
+.broccoli:hover {
+  background-color: #dcd6f7;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/**************************** ID SELECTORS ****************************/
