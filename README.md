@@ -6,4 +6,4 @@ Home Page:
 <https://bao007fei.github.io/Web-Development-Course/personalSite/>
 
 Another Page:  
-<https://bao007fei.github.io/Web-Development-Course/CSS - My Site/>
+<https://bao007fei.github.io/Web-Development-Course/CSS_My_Site/>
