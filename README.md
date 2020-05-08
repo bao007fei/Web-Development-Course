@@ -2,8 +2,5 @@
 
 This repo is only for personal learning
 
-Home Page:  
-<https://bao007fei.github.io/Web-Development-Course/personalSite/>
-
-Another Page:  
+New home page, yeah~~  
 <https://bao007fei.github.io/Web-Development-Course/CSS_My_Site/>

@@ -1,24 +1,127 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: "Fira Code", monospace;
+  color: #655c56;
 }
 
 h1 {
-  margin-top: 0;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 0;
 }
 
-div {
-  background-color: royalblue;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: normal; */
 }
 
-.middle-container{
-    background-color: rebeccapurple;
-    width: 200px;
-    height: 200px;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #94d3ac;
 }
 
-.bottom-container{
-    background-color: yellowgreen;
-    width: 200px;
-    height: 200px;
+hr {
+  margin: 100px auto;
+  width: 10%;
+  border: dotted;
+  border-width: 0 0 10px 0;
+  color: #ccedd2;
 }
 
+.top-container {
+  background-color: #ccedd2;
+  position: relative;
+  padding-top: 200px;
+}
+
+.text-container {
+  position: relative;
+  margin: auto;
+  width: 600px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill_img {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill_img_2 {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill_description {
+  clear: both;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-acorn {
+  width: 40px;
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+
+.bottom-acorn {
+  width: 40px;
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+}
+
+.mountain {
+  width: 32%;
+  min-width: 150px;
+  margin: 100px 0 -100px 0;
+
+}
+
+.btn {
+  display: inline-block;
+  margin: 50px 0 0 0;
+  color: white;
+  text-decoration: none;
+  font-family: "Fira Code", monospace;
+  background-color: #94d3ac;
+  padding: 10px 40px;
+  border-radius: 100px;
+}
+
+.btn:hover{
+  background-color: #ccedd2;
+}
+
+.bottom-container {
+  background-color: #ccedd2;
+  padding: 50px;
+  font-family: "Fira Code", monospace;
+  color: #655c56;
+}
+
+.footer-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+  margin: 20px;
+  color: #94d3ac;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.middle-container {
+  margin: 200px 0 100px 0;
+}
