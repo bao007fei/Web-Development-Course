@@ -75,7 +75,7 @@ hr {
 }
 
 .mountain {
-  width: 800px;
+  width: 50%;
   margin: 100px 0 -100px 0;
 }
 
@@ -128,8 +128,12 @@ hr {
   margin: auto;
 }
 
-@media screen and (max-width: 600px) {
-  .mountain {
-    width: 250px;
+@media (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .profile_img {
+    width: 50%;
   }
 }
+
