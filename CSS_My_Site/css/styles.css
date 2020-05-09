@@ -75,9 +75,8 @@ hr {
 }
 
 .mountain {
-  width: 1000px;
+  width: 800px;
   margin: 100px 0 -100px 0;
-
 }
 
 .btn {
@@ -91,7 +90,7 @@ hr {
   border-radius: 100px;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #ccedd2;
 }
 
@@ -111,10 +110,26 @@ hr {
   display: inline-block;
 }
 
-.footer-link:hover{
+.footer-link:hover {
   color: white;
 }
 
 .middle-container {
   margin: 200px 0 100px 0;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .mountain {
+    width: 250px;
+  }
 }
