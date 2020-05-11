@@ -16,18 +16,6 @@ p {
   color: #8f8f8f;
 }
 
-/* Title */
-
-#title {
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
-}
-
-.container-fluid {
-  padding: 7% 15%;
-}
-
 /* Headings */
 .big-heading {
   font-weight: 900;
@@ -40,8 +28,12 @@ p {
   line-height: 1.5;
 }
 
-/* Navigation Bar */
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
 
+/* Navigation Bar */
 .navbar {
   padding: 0 0 4.5rem 0;
 }
@@ -62,13 +54,22 @@ p {
 }
 
 /* Download Button */
-
 .download-botton {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Title Section*/
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
 
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
 .title-image {
   width: 60%;
   transform: rotate(20deg);
